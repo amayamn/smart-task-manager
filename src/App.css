@@ -1,0 +1,393 @@
+/* NAVBAR */
+
+.navbar {
+  height: 70px;
+  background: #1e3a8a;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #bfdbfe;
+}
+
+
+/* LOGIN AND REGISTER */
+
+.auth-container {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #eef2ff;
+}
+
+.auth-box {
+  width: 400px;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.auth-box h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-box label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.auth-box input {
+  padding: 12px;
+  margin-bottom: 18px;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-box button {
+  padding: 12px;
+
+  background: #1e3a8a;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+.auth-box button:hover {
+  background: #172554;
+}
+
+.auth-box p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.auth-box a {
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+
+/* GENERAL PAGE */
+
+.page-container {
+  padding: 40px;
+}
+
+.page-container h1 {
+  margin-bottom: 10px;
+}
+
+
+/* DASHBOARD CARDS */
+
+.dashboard-cards {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+
+  text-align: center;
+}
+
+.card h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  color: #1e3a8a;
+  font-size: 32px;
+}
+
+
+/* PROGRESS */
+
+.progress-section {
+  background: white;
+
+  margin-top: 30px;
+
+  padding: 30px;
+
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 25px;
+
+  background: #ddd;
+
+  border-radius: 20px;
+
+  margin-top: 15px;
+
+  overflow: hidden;
+}
+
+.progress {
+  width: 0%;
+
+  height: 100%;
+
+  background: #1e3a8a;
+
+  color: white;
+
+  text-align: center;
+}
+
+
+/* BUTTON */
+
+button {
+  padding: 11px 18px;
+
+  border: none;
+
+  background: #1e3a8a;
+
+  color: white;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #172554;
+}
+
+
+/* PAGE HEADER */
+
+.page-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+
+/* SEARCH */
+
+.search-box {
+  margin-top: 30px;
+
+  display: flex;
+
+  gap: 15px;
+}
+
+.search-box input,
+.search-box select {
+  padding: 12px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 6px;
+}
+
+.search-box input {
+  width: 300px;
+}
+
+
+/* TASK */
+
+.task-list {
+  margin-top: 30px;
+}
+
+.empty-task {
+  background: white;
+
+  padding: 50px;
+
+  text-align: center;
+
+  border-radius: 10px;
+
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.empty-task p {
+  margin: 15px 0 20px;
+}
+
+
+/* ADD TASK */
+
+.form-container {
+  max-width: 700px;
+
+  margin: 40px auto;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.form-container h1 {
+  margin-bottom: 25px;
+}
+
+.form-container form {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-bottom: 7px;
+
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container select {
+  padding: 12px;
+
+  margin-bottom: 20px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 6px;
+
+  font-size: 15px;
+}
+
+
+/* ADMIN */
+
+.admin-section {
+  background: white;
+
+  margin-top: 30px;
+
+  padding: 30px;
+
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+
+  padding: 14px;
+
+  text-align: left;
+}
+
+th {
+  background: #1e3a8a;
+
+  color: white;
+}
+
+
+/* PROFILE */
+
+.profile-container {
+  padding: 40px;
+
+  text-align: center;
+}
+
+.profile-card {
+  max-width: 400px;
+
+  margin: 30px auto;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.profile-image {
+  font-size: 70px;
+
+  margin-bottom: 15px;
+}
+
+.profile-card p {
+  margin: 10px;
+}
